@@ -125,3 +125,17 @@ small {
   left: 50%;
   transform: translate(-50%, -50%);
 }
+
+@media screen and (max-width: 480px) {
+
+  /* Make the nav a stack */
+  nav a {
+    display: block;
+    padding: 5px 0;
+  }
+
+  h2 {
+    font-size: 24px;
+    padding: 0 0 0 0;
+  }
+}
